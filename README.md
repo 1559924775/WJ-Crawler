@@ -14,6 +14,9 @@
   每一个爬虫任务（如爬取豆瓣电影任务），对应一个主任务队列（存列表url和详情页url），每个爬虫节点各有一个任务队列（存放详情页url）<br/>
   <img src="https://github.com/1559924775/WJ-Crawler/blob/master/work-stealing.png" width="600" alt="工作窃取"/><br/>
 2）各个节点启动时，选举出master节点从数据库中拉取起始url放入各任务的主任务队列中，从节点监听到master将url放入后开始工作<br/>
+  主节点完成起始任务的拉取后创建/master-election/success节点，其他爬虫节点监听到该节点后执行爬虫任务。
+<img src="https://github.com/1559924775/WJ-Crawler/blob/master/master选举.JPG" width="300" alt="master选举"/><br/>
+
 3）爬取的url由布隆过滤器配合已爬取Set（doneSet）实现去重<br/>
 
 2.日志模块：<br/>
