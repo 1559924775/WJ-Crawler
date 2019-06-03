@@ -12,8 +12,8 @@
 1.爬虫模块：
 1）各个爬虫节点采用工作窃取的方式工作
   每一个爬虫任务（如爬取豆瓣电影任务），对应一个主任务队列（存列表url和详情页url），每个爬虫节点各有一个任务队列（存放详情页url）
-  ![Image text](https://github.com/1559924775/WJ-Crawler/blob/master/work-stealing.png)
-  <img src="https://github.com/1559924775/WJ-Crawler/blob/master/work-stealing.png" width="600" alt="工作窃取"/>
+  //![Image text](https://github.com/1559924775/WJ-Crawler/blob/master/work-stealing.png)
+  <img src="https://github.com/1559924775/WJ-Crawler/blob/master/work-stealing.png" width="600" alt="工作窃取"/><br/>
 2）各个节点启动时，选举出master节点从数据库中拉取起始url放入各任务的主任务队列中，从节点监听到master将url放入后开始工作
 3）爬取的url由布隆过滤器配合已爬取Set（doneSet）实现去重
 
