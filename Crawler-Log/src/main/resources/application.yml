@@ -1,0 +1,17 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: crawler-log
+  dubbo:
+    server: true
+    registry: zookeeper://47.110.255.222:2181
+    protocol:
+      name: dubbo
+      port: 20882
+
+
+
+
+

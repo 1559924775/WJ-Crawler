@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Crawler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Crawler-Log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Crawler-Monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Crawler/src/main/java/com/uestc/runner/DoubanTask.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Crawler/src/main/java/com/uestc/util/ConditionController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DaoCreate" charset="UTF-8" />
+  </component>
+</project>
