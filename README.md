@@ -2,13 +2,7 @@
 开发工具：IDEA
 依赖工具:spring-boot、mybatis、reids、dubbo、zookeeper、mysql、tcc-trasaction
 
-<font color="red">Here is red text</font>
-<font face="黑体">我是黑体字</font>
-<font face="微软雅黑">我是微软雅黑</font>
-<font face="STCAIYUN">我是华文彩云</font>
-<font color=#0099ff size=7 face="黑体">color=#0099ff size=72 face="黑体"</font>
-<font color=#00ffff size=72>color=#00ffff</font>
-<font color=gray size=72>color=gray</font>
+```java 测试 ```
 分布式爬虫（抓取纵横小说和豆瓣刚上映电影，观察每日的数据变化趋势）<br/>
 项目分三个模块：<br/>
 
