@@ -1,6 +1,6 @@
 # WJ-Crawler
 开发工具：IDEA
-依赖工具:spring-boot、mybatis、reids、dubbo、zookeeper、mysql、tcc-trasaction
+依赖工具:spring-boot、mybatis、redis、dubbo、zookeeper、mysql、tcc-trasaction
 
 
 分布式爬虫（抓取纵横小说和豆瓣刚上映电影，观察每日的数据变化趋势）<br/>
