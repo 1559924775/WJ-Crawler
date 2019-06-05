@@ -44,8 +44,9 @@
 <b>2.日志模块：</b><br/>
 包括每个节点的动态执行日志，和每一轮爬虫任务结束后记录统计信息<br/>
 节点动态信息<br/>
-<img src="https://github.com/1559924775/WJ-Crawler/blob/master/节点动态信息.JPG" width="450"/><br/>
+<img src="https://github.com/1559924775/WJ-Crawler/blob/master/节点动态信息.JPG" width="600"/><br/>
 爬虫任务汇总日志信息<br/>
+<img src="https://github.com/1559924775/WJ-Crawler/blob/master/爬虫任务汇总信息.JPG" width="600"/><br/>
 
 在dubbo上注册服务，交由各个爬虫节点远程调用，实现统一的日志管理<br/>
 
