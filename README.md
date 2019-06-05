@@ -19,10 +19,10 @@
 <img src="https://github.com/1559924775/WJ-Crawler/blob/master/master选举用节点.JPG" width="300" alt="master选举用节点"/><br/>
 
 3）爬取的url由布隆过滤器配合已爬取Set（doneSet）实现去重<br/>
-     * 验证逻辑：
-     *  （1）节点本地localDoneSet验证，若存在，那肯定爬过了，不存在->（2）
-     *  （2）redis验证,先用布隆过滤器验证，若不存在，加入url，若返回存在->（3）
-     *  （3）遍历redis中的doneSet验证
+     * 验证逻辑：<br/>
+     *  （1）节点本地localDoneSet验证，若存在，那肯定爬过了，不存在->（2）<br/>
+     *  （2）redis验证,先用布隆过滤器验证，若不存在，加入url，若返回存在->（3）<br/>
+     *  （3）遍历redis中的doneSet验证<br/>
 
 4）爬取的数据包括静态数据（如名字，作者）和动态数据（如点击量，推荐量），分别存入两个表中，基于可扩展性的考虑（未来数据库可能会分库分表）所以
 引入tcc-transaction依赖，使用TCC的方式构建分布式事务。<br/>
