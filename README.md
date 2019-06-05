@@ -28,7 +28,7 @@
      *  （3）遍历redis中的doneSet验证<br/>
      
 5）```分布式事务。```爬取的数据包括静态数据（如名字，作者）和动态数据（如点击量，推荐量），分别存入两个表中，基于可扩展性的考虑（未来数据库可能会分库分表）所以引入tcc-transaction依赖，使用TCC的方式构建分布式事务。<br/>
-<img src="https://github.com/1559924775/WJ-Crawler/blob/master/TCC.JPG" width="600" alt="tcc事务模型"/><br/>
+<img src="https://github.com/1559924775/WJ-Crawler/blob/master/TCC模型.JPG" width="600" alt="tcc事务模型"/><br/>
 静态数据：</br>
 <img src="https://github.com/1559924775/WJ-Crawler/blob/master/动态数据.JPG" width="800" alt="静态数据"/><br/>
 动态数据：</br>
