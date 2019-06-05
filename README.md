@@ -2,7 +2,7 @@
 开发工具：IDEA
 依赖工具:spring-boot、mybatis、redis、dubbo、zookeeper、mysql、tcc-trasaction
 
-
+<b2>项目介绍：</b2>
 分布式爬虫（抓取纵横小说和豆瓣刚上映电影，观察每日的数据变化趋势）<br/>
 项目分三个模块：<br/>
 
@@ -43,3 +43,4 @@
 检测到爬虫节点下线后，将节点的任务队列中任务，移动到容灾队列中（spider_douban_recovery），检查还有没有节点在线，有就平均分配到其他节点的任务队列中去。最终爬虫结束后会将所有容灾队列中任务写入到failList.txt中去。
 
 
+<b2>部署:</b2>
