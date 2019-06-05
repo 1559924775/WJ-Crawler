@@ -12,13 +12,15 @@
 3.监控模块：监控各个节点的情况，节点宕机发邮件提醒<br/>
 
 <b>1.爬虫模块：</b><br/>
-1）```分布式爬虫。```爬虫任务分布在多台机器上，每台机器多线程运行多个爬虫任务（纵横小说、豆瓣电影等），加快爬取速度同时防止单一ip频繁抓取被封。使用HttpClient，设置请求头模拟浏览器浏览。
+1）```分布式爬虫。```爬虫任务分布在多台机器上，每台机器多线程运行多个爬虫任务（纵横小说、豆瓣电影等），加快爬取速度同时防止单一ip频繁抓取被封。使用HttpClient，设置请求头模拟浏览器浏览。<br/>
+
 2）```工作窃取。```各个爬虫节点采用工作窃取的方式工作<br/>
   每一个爬虫任务（如爬取豆瓣电影任务），对应一个主任务队列（存列表url和详情页url），每个爬虫节点各有一个任务队列（存放详情页url）<br/>
   <img src="https://github.com/1559924775/WJ-Crawler/blob/master/work-stealing.png" width="600" alt="工作窃取"/><br/>
 3）```主节点选举。```</font> 各个节点启动时，选举出master节点从数据库中拉取起始url放入各任务的主任务队列中，从节点监听到master将url放入后开始工作<br/>
   主节点完成起始任务的拉取后创建/master-election/success节点，其他爬虫节点监听到success节点后执行爬虫任务。
 <img src="https://github.com/1559924775/WJ-Crawler/blob/master/master选举用节点.JPG" width="300" alt="master选举用节点"/><br/>
+
 4）```布隆过滤器去重。```爬取的url由布隆过滤器配合已爬取Set（doneSet）实现去重<br/>
      * 验证逻辑：<br/>
      *  （1）节点本地localDoneSet验证，若存在，那肯定爬过了，不存在->（2）<br/>
@@ -30,10 +32,13 @@
 <img src="https://github.com/1559924775/WJ-Crawler/blob/master/静态数据.JPG" width="600" alt="静态数据"/><br/>
 动态数据：</br>
 <img src="https://github.com/1559924775/WJ-Crawler/blob/master/动态数据.JPG" width="600" alt="动态数据"/><br/>
+
 6）分布式唯一id。使用雪花算法生成唯一id</br>
 <img src="https://github.com/1559924775/WJ-Crawler/blob/master/雪花ID.png" width="450" alt="分布式唯一id"/><br/>
-6）```定时任务。```由于爬虫是周期性的爬虫数据，使用quartz定时开启任务（00 00 23 * * ?）。<br/>
-7）```容灾措施。```爬虫节点宕机后可使用SpiderRecoveryStart类快速恢复爬虫任务（打开@Component注释）。<br/>
+
+7）```定时启动。```由于爬虫是周期性的爬虫数据，使用quartz定时开启任务（00 00 23 * * ?）。<br/>
+
+8）```容灾措施。```爬虫节点宕机后可使用SpiderRecoveryStart类快速恢复爬虫任务（打开@Component注释）。<br/>
 
 <b>2.日志模块：</b><br/>
 包括每个节点的动态执行日志，和每一轮爬虫任务结束后记录统计信息<br/>
