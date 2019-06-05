@@ -4,6 +4,7 @@ package com.uestc.entity;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -11,7 +12,7 @@ import java.util.Date;
  * 表2-记录每天变化的字段
  */
 @Data
-public class ZonghengPage implements  Page{
+public class ZonghengPage implements  Page, Serializable {
 
     //存入表1
     private long id;

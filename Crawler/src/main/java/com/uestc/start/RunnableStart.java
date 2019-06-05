@@ -92,22 +92,26 @@ public class RunnableStart {
     }
     public void start(){
         //对于重启恢复的不必选举
-        if(isRecovery)
+        if(!isRecovery)
             election();
         //这个任务进程到zookeeper上去注册，方便监控应用情况
         registerOnZookeeper();
         //加入起始页 (应该通过定时任务在夜里添加进去)  //spider_zongheng是主队列
         ExecutorService executorService= Executors.newCachedThreadPool();
         ConditionController conditionController=new ConditionController();
+
+
         //开启消费者线程去消费
         Thread consumer=new Thread(doubanTask);
         consumer.setName("豆瓣爬虫");
-        executorService.submit(consumer);
+        consumer.start();
+//        executorService.submit(consumer);
 
         //开启消费者线程去消费
         Thread consumer1=new Thread(zonghengTask);
         consumer1.setName("纵横爬虫");
-        executorService.submit(consumer1);
+        consumer1.start();
+//        executorService.submit(consumer1);
         executorService.shutdown();
     }
     public void registerOnZookeeper(){

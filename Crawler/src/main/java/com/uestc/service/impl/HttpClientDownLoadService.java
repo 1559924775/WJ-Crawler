@@ -119,24 +119,4 @@ public class HttpClientDownLoadService implements IDownLoadService {
 		return content;
 	}
 
-	@Test
-	public void test(){
-		String url="https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0";
-		String content=this.download(url);
-//		System.out.println(content);
-		DoubanPage page=new DoubanPage();
-		page.setContent(content);
-		page.setUrl(url);
-//		content="url\":\"https:\\/\\/movie.douban.com\\/subject\\/30237255\\/\"";
-
-		String regex=LoadPropertyUtil.getDouban("moveDetailUrl");
-		Pattern pattern=Pattern.compile(regex);
-		Matcher matcher=pattern.matcher(content);
-		while(matcher.find()){
-			String u=matcher.group();
-			System.out.println(u);
-		}
-
-	}
-
 }

@@ -75,11 +75,11 @@ public class DoubanTask implements Runnable{
         doubanLogService.setStartTime(new Date());
         String url="";
         while(true){
-            conditionController.getLock().lock();
+//            conditionController.getLock().lock();
             try {
                 //唤醒别人自己等待
-                conditionController.getCdb().signal();
-                conditionController.getCda().await(10000,TimeUnit.MILLISECONDS);
+//                conditionController.getCdb().signal();
+//                conditionController.getCda().await(10000,TimeUnit.MILLISECONDS);
 
                 System.out.println(Thread.currentThread().getName());
                 //从自己的队列中取任务，用poll（）方法从尾部取 （push()使用头部放入的）
@@ -100,9 +100,6 @@ public class DoubanTask implements Runnable{
                         return;
                     }
                 }
-                //取到了url，应该进行重复检测
-
-
                 //如果是详情页直接消费，如果是列表页解析列表页
                 if(url.startsWith(LoadPropertyUtil.getDouban("listUrlStartWith"))){
                     System.out.println("列表页:"+url);
@@ -135,6 +132,8 @@ public class DoubanTask implements Runnable{
                     page.setContent(content);
                     page.setDate(new Date());
                     doubanProcessService.process(page);
+                    System.out.println("开始数据库存车服务————————————————-");
+                    page.setContent("null");
                     mysqlStoreService.store(page);
                     doubanLogService.addSuccessNum(1);
                 }
@@ -149,7 +148,7 @@ public class DoubanTask implements Runnable{
                    doubanLogService.addFailList(url);
                 e.printStackTrace();
             }finally {
-                conditionController.getLock().unlock();
+//                conditionController.getLock().unlock();
             }
         }
     }

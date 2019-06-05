@@ -5,8 +5,6 @@ import com.uestc.entity.DoubanPage;
 import com.uestc.entity.Page;
 import com.uestc.entity.ZonghengPage;
 import com.uestc.service.IStoreService;
-import org.springframework.context.annotation.Scope;
-import org.springframework.stereotype.Service;
 
 /**
  * 数据存储实现类Console
@@ -14,8 +12,8 @@ import org.springframework.stereotype.Service;
  * @Test 用于测试
  */
 //把解析的数据输出到控制台
-@Scope("prototype")
-@Service
+//@Scope("prototype")
+//@Service
 public class ConsoleStoreService implements IStoreService {
 
 	public void store(Page page1) {

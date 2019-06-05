@@ -73,11 +73,11 @@ public class ZonghengTask implements Runnable{
         redisQueueRepositoryService.setQueue("spider_zongheng");
         String url="";
         while(true){
-            conditionController.getLock().lock();
+//            conditionController.getLock().lock();
             try {
                 //唤醒别人自己等待
-                conditionController.getCda().signal();
-                conditionController.getCdb().await(10000,TimeUnit.MILLISECONDS);
+//                conditionController.getCda().signal();
+//                conditionController.getCdb().await(10000,TimeUnit.MILLISECONDS);
 
                 System.out.println(Thread.currentThread().getName());
                 url=redisQueueRepositoryService.poll(keyName); //刚开始只有主队列中有，需要窃取
@@ -129,6 +129,8 @@ public class ZonghengTask implements Runnable{
                     page.setDate(new Date());
                     page.setContent(content);
                     zonghengProcessService.process(page);
+                    System.out.println("开始数据库存车服务————————————————-");
+                    page.setContent("null");
                     mysqlStoreService.store(page);
                     zonghengLogService.addSuccessNum(1);
                 }
@@ -142,7 +144,7 @@ public class ZonghengTask implements Runnable{
                     zonghengLogService.addFailList(url);
                 e.printStackTrace();
             }finally {
-                conditionController.getLock().unlock();
+//                conditionController.getLock().unlock();
             }
 
         }

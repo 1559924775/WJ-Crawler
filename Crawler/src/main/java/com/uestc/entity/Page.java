@@ -1,6 +1,8 @@
 package com.uestc.entity;
 
-public interface Page {
+import java.io.Serializable;
+
+public interface Page extends Serializable {
     String getContent();
     String getUrl();
 }

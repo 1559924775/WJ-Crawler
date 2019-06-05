@@ -45,26 +45,14 @@ public class SpiderJob implements Job {
 		 * 	掉线重连的节点发现已经有success节点了，直接开始工作
 		 * 	每个周期结束之后，要清理节点。
 		 */
-
-		//掉线重连的检查工作不应该写在定时任务中，应该写个直接开始的ApplicatinoRunner
-		//逻辑在RunnableStart中
-
-//
-//		Map<String, List<String>> map=new HashMap<>();// 网站—起始url
-//		//从txt文件中读取
-//		readStartUrlFromFile(map,"douban");
-//		readStartUrlFromFile(map,"zongheng");
-//		for(String str : map.keySet()){
-//			//放入到对应的队列中
-//			redisQueueRepositoryService.setQueue("spider_"+str);
-//			List<String> urls=map.get(str);
-//			for(String url:urls){
-//				redisQueueRepositoryService.add(url);
-//			}
-//
-//		}
 		runnableStart.start();
 	}
+
+    /**
+     * 从文件中去取起始url (被从数据库读取代替)
+     * @param map
+     * @param fileName
+     */
 	public void readStartUrlFromFile(Map<String, List<String>> map,String fileName){
 		//加入fileName爬虫的起始url
 		List<String> list=new ArrayList<>();

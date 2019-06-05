@@ -3,6 +3,7 @@ package com.uestc.entity;
 import lombok.Data;
 import org.apache.solr.client.solrj.beans.Field;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -14,7 +15,7 @@ import java.util.List;
  *
  */
 @Data   //
-public class DoubanPage implements  Page{
+public class DoubanPage implements  Page, Serializable {
 
 
 	//html页面内容

@@ -15,6 +15,10 @@ import org.apache.zookeeper.KeeperException;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 测试选举master
+ * @author 王俊
+ */
 public class MasterTest {
     public static void main(String[] args) throws InterruptedException {
         final CountDownLatch countDownLatch=new CountDownLatch(1);

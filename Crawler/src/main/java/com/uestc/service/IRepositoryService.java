@@ -6,6 +6,7 @@ import java.util.Set;
  * 操作工作队列
  * @author 王俊
  */
+
 public interface IRepositoryService {
     public String take()throws InterruptedException ;
 

@@ -3,7 +3,9 @@ package com.uestc.crontab;
 import com.uestc.service.impl.RedisQueueRepositoryService;
 import com.uestc.start.RunnableStart;
 import org.quartz.*;
+import org.quartz.impl.JobDetailImpl;
 import org.quartz.impl.StdSchedulerFactory;
+import org.quartz.impl.triggers.CronTriggerImpl;
 import org.springframework.beans.BeansException;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -40,10 +42,10 @@ public class UrlScheduler implements ApplicationRunner  ,ApplicationContextAware
             jobDataMap.put("runnableStart",runnableStart);
 
 			//被调度的任务
-			JobDetail jobDetail = new JobDetail(LoadPropertyUtil.getCrontab("jobName"), Scheduler.DEFAULT_GROUP, SpiderJob.class);
+			JobDetailImpl jobDetail = new JobDetailImpl(LoadPropertyUtil.getCrontab("jobName"), Scheduler.DEFAULT_GROUP, SpiderJob.class);
             jobDetail.setJobDataMap(jobDataMap);
 			//定时执行任务
-			CronTrigger trigger = new CronTrigger("spider-job", Scheduler.DEFAULT_GROUP, LoadPropertyUtil.getCrontab("cronExpression"));
+			CronTrigger trigger = new CronTriggerImpl("spider-job", Scheduler.DEFAULT_GROUP, LoadPropertyUtil.getCrontab("cronExpression"));
 
 			//添加调度任务
 			defaultScheduler.scheduleJob(jobDetail , trigger);
