@@ -29,6 +29,7 @@
 <img src="https://github.com/1559924775/WJ-Crawler/blob/master/静态数据.JPG" width="600" alt="静态数据"/><br/>
 动态数据：</br>
 <img src="https://github.com/1559924775/WJ-Crawler/blob/master/动态数据.JPG" width="600" alt="动态数据"/><br/>
+6）分布式唯一id。使用雪花算法生成唯一id
 6）```定时任务。```由于爬虫是周期性的爬虫数据，使用quartz定时开启任务（00 00 23 * * ?）。<br/>
 7）```容灾措施。```爬虫节点宕机后可使用SpiderRecoveryStart类快速恢复爬虫任务（打开@Component注释）。<br/>
 
