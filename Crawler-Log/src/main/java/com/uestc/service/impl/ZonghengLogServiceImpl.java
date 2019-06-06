@@ -68,7 +68,6 @@ public class ZonghengLogServiceImpl implements IZonghengLogService{
 
     @Override
     public synchronized void setLog(String msg) {
-        System.out.println(msg);
         info(msg);
     }
 

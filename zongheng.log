@@ -1633,3 +1633,202 @@
 15:23:02,169 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/707829.html
 15:23:09,281 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/841493.html
 15:23:13,708 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/806643.html
+21:33:01,884 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析列表页-url:http://book.zongheng.com/store/c0/c0/b0/u0/p1/v9/s9/t0/u0/i1/ALL.html
+21:33:02,144 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/451751.html
+21:33:02,144 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/451751.html
+21:33:02,314 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/451751.html
+21:33:02,414 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/796075.html
+21:33:02,424 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/796075.html
+21:33:02,574 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/796075.html
+21:33:02,684 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/764706.html
+21:33:02,694 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/764706.html
+21:33:02,854 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/764706.html
+21:33:02,964 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/834258.html
+21:33:02,964 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/834258.html
+21:33:03,124 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/834258.html
+21:33:03,234 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/838654.html
+21:33:03,234 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/838654.html
+21:33:03,394 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/838654.html
+21:33:03,504 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/789434.html
+21:33:03,514 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/789434.html
+21:33:03,674 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/789434.html
+21:33:03,784 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/842723.html
+21:33:03,784 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/842723.html
+21:33:03,944 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/842723.html
+21:33:04,054 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/408586.html
+21:33:04,054 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/408586.html
+21:33:04,214 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/408586.html
+21:33:04,324 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/844850.html
+21:33:04,324 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/844850.html
+21:33:04,484 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/844850.html
+21:33:04,594 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/840480.html
+21:33:04,594 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/840480.html
+21:33:04,754 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/840480.html
+21:33:04,864 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/833976.html
+21:33:04,864 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/833976.html
+21:33:05,034 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/833976.html
+21:33:05,134 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/777152.html
+21:33:05,134 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/777152.html
+21:33:05,304 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/777152.html
+21:33:05,414 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/844942.html
+21:33:05,414 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/844942.html
+21:33:05,574 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/844942.html
+21:33:05,684 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/835320.html
+21:33:05,684 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/835320.html
+21:33:05,844 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/835320.html
+21:33:05,954 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/843693.html
+21:33:05,954 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/843693.html
+21:33:06,114 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/843693.html
+21:33:06,224 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/818431.html
+21:33:06,224 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/818431.html
+21:33:06,384 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/818431.html
+21:33:06,494 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/627454.html
+21:33:06,494 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/627454.html
+21:33:06,654 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/627454.html
+21:33:06,764 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/840362.html
+21:33:06,764 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/840362.html
+21:33:06,924 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/840362.html
+21:33:07,024 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/842457.html
+21:33:07,034 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/842457.html
+21:33:07,204 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/842457.html
+21:33:07,304 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/843780.html
+21:33:07,304 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/843780.html
+21:33:07,464 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/843780.html
+21:33:07,574 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/794021.html
+21:33:07,574 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/794021.html
+21:33:07,734 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/794021.html
+21:33:07,844 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/837463.html
+21:33:07,844 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/837463.html
+21:33:08,004 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/837463.html
+21:33:08,117 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/844056.html
+21:33:08,120 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/844056.html
+21:33:08,280 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/844056.html
+21:33:08,386 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/774111.html
+21:33:08,388 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/774111.html
+21:33:08,548 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/774111.html
+21:33:08,657 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/844149.html
+21:33:08,659 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/844149.html
+21:33:08,819 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/844149.html
+21:33:08,927 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/837993.html
+21:33:08,928 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/837993.html
+21:33:09,088 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/837993.html
+21:33:09,204 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/838699.html
+21:33:09,205 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/838699.html
+21:33:09,365 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/838699.html
+21:33:09,473 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/838952.html
+21:33:09,474 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/838952.html
+21:33:09,635 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/838952.html
+21:33:09,742 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/844622.html
+21:33:09,743 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/844622.html
+21:33:09,903 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/844622.html
+21:33:10,010 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/840542.html
+21:33:10,011 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/840542.html
+21:33:10,176 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/840542.html
+21:33:10,285 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/839209.html
+21:33:10,286 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/839209.html
+21:33:10,450 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/839209.html
+21:33:10,557 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/771977.html
+21:33:10,559 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/771977.html
+21:33:10,719 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/771977.html
+21:33:10,827 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/761395.html
+21:33:10,828 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/761395.html
+21:33:10,988 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/761395.html
+21:33:11,097 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/834664.html
+21:33:11,099 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/834664.html
+21:33:11,307 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/834664.html
+21:33:11,431 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/842214.html
+21:33:11,455 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/842214.html
+21:33:11,615 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/842214.html
+21:33:11,722 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/794568.html
+21:33:11,723 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/794568.html
+21:33:11,882 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/794568.html
+21:33:11,989 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/843338.html
+21:33:11,990 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/843338.html
+21:33:12,150 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/843338.html
+21:33:12,257 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/799064.html
+21:33:12,258 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/799064.html
+21:33:12,418 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/799064.html
+21:33:12,525 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/840414.html
+21:33:12,526 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/840414.html
+21:33:12,686 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/840414.html
+21:33:12,794 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/806010.html
+21:33:12,797 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/806010.html
+21:33:12,958 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/806010.html
+21:33:13,066 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/842291.html
+21:33:13,067 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/842291.html
+21:33:13,227 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/842291.html
+21:33:13,334 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/839848.html
+21:33:13,335 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/839848.html
+21:33:13,495 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/839848.html
+21:33:13,604 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/844207.html
+21:33:13,606 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/844207.html
+21:33:13,765 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/844207.html
+21:33:13,872 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/845164.html
+21:33:13,874 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/845164.html
+21:33:14,034 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/845164.html
+21:33:14,143 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/833065.html
+21:33:14,145 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/833065.html
+21:33:14,306 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/833065.html
+21:33:14,414 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/844820.html
+21:33:14,415 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/844820.html
+21:33:14,574 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/844820.html
+21:33:14,682 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/810390.html
+21:33:14,684 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/810390.html
+21:33:14,845 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/810390.html
+21:33:14,954 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/840296.html
+21:33:14,956 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/840296.html
+21:33:15,115 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/840296.html
+21:33:15,219 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/787284.html
+21:33:15,219 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/787284.html
+21:33:15,379 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/787284.html
+21:33:15,489 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入本地localDoneSet: http://book.zongheng.com/book/840553.html
+21:33:15,489 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的doneSet: http://book.zongheng.com/book/840553.html
+21:33:15,649 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1加入reids的布隆过滤器: http://book.zongheng.com/book/840553.html
+21:33:20,385 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/451751.html
+21:33:27,422 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/796075.html
+21:33:31,930 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/764706.html
+21:33:37,905 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/834258.html
+21:33:39,363 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/838654.html
+21:33:42,592 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/789434.html
+21:33:49,286 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/842723.html
+21:33:51,038 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/408586.html
+21:33:57,623 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/844850.html
+21:34:02,754 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/840480.html
+21:34:07,472 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/833976.html
+21:34:14,144 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/777152.html
+21:34:15,825 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/844942.html
+21:34:17,606 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/835320.html
+21:34:25,391 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/843693.html
+21:34:31,146 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/818431.html
+21:34:38,210 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/627454.html
+21:34:45,752 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/840362.html
+21:34:49,552 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/842457.html
+21:34:51,938 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/843780.html
+21:34:58,005 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/794021.html
+21:35:03,310 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/837463.html
+21:35:07,760 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/844056.html
+21:35:09,652 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/774111.html
+21:35:16,586 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/844149.html
+21:35:24,793 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/837993.html
+21:35:27,979 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/838699.html
+21:35:35,872 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/838952.html
+21:35:44,032 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/844622.html
+21:35:51,421 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/840542.html
+21:35:53,254 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/839209.html
+21:36:00,520 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/771977.html
+21:36:04,907 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/761395.html
+21:36:08,498 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/834664.html
+21:36:15,314 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/842214.html
+21:36:22,459 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/794568.html
+21:36:30,451 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/843338.html
+21:36:34,062 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/799064.html
+21:36:40,239 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/840414.html
+21:36:42,998 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/806010.html
+21:36:44,766 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/842291.html
+21:36:48,380 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/839848.html
+21:36:55,444 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/844207.html
+21:37:02,268 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/845164.html
+21:37:10,596 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/833065.html
+21:37:18,193 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/844820.html
+21:37:24,842 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/810390.html
+21:37:28,446 ZonghengLogServiceImpl info 节点spider_zongheng192.168.1.1正在解析详细页-url:http://book.zongheng.com/book/840296.html

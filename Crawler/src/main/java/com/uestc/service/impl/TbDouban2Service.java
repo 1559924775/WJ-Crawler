@@ -19,7 +19,7 @@ public class TbDouban2Service implements ITbDouban2Service {
     public void add(TbDouban2 tbDouban2) {
         tbDouban2.setStatus("inserting");
         tbDouban2Mapper.insert(tbDouban2);
-        System.out.println("执行try");
+
     }
     public void confirmAdd(TbDouban2 tbDouban2){
         //更新draft状态为空，表示正真的插入。
@@ -29,7 +29,7 @@ public class TbDouban2Service implements ITbDouban2Service {
             TbDouban2Example.Criteria criteria=example.createCriteria();
             criteria.andIdEqualTo(tbDouban2.getId());
             tbDouban2Mapper.updateByExampleSelective(tbDouban2,example);
-            System.out.println("执行comfirm");
+
         }
     }
     public void cancelAdd(TbDouban2 tbDouban2){
@@ -40,7 +40,7 @@ public class TbDouban2Service implements ITbDouban2Service {
             criteria.andIdEqualTo(tbDouban2.getId());
             tbDouban2Mapper.deleteByExample(example);
         }
-        System.out.println("执行cancel");
+
     }
 
 

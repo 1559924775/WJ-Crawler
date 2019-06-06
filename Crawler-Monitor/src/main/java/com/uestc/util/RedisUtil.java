@@ -39,7 +39,6 @@ public class RedisUtil {
 		resource=  jedisPool.getResource();
 //		resource.auth(LoadPropertyUtil.getRedis("redis_pwd"));
 		client= new Client(jedisPool);
-		System.out.println(resource.ping());
 	}
 
 	/**

@@ -56,7 +56,6 @@ public class IPSpiderToRedis {
         }
         RedisUtil redisUtil = new RedisUtil();
         for(String s:list){
-            System.out.println(s);
             redisUtil.addSet("proxy",s);
         }
     }

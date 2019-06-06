@@ -21,7 +21,6 @@ public class TbZongheng2Service implements ITbZongheng2Service {
     public void add(TbZongheng2 tbZongheng2) {
         tbZongheng2.setStatus("inserting");
         tbZongheng2Mapper.insert(tbZongheng2);
-        System.out.println("执行try");
     }
     public void confirmAdd(TbZongheng2 tbZongheng2){
         //更新draft状态为空，表示正真的插入。
@@ -31,7 +30,6 @@ public class TbZongheng2Service implements ITbZongheng2Service {
             TbZongheng2Example.Criteria criteria=example.createCriteria();
             criteria.andIdEqualTo(tbZongheng2.getId());
             tbZongheng2Mapper.updateByExampleSelective(tbZongheng2,example);
-            System.out.println("执行comfirm");
         }
     }
     public void cancelAdd(TbZongheng2 TbZongheng2){
@@ -42,7 +40,6 @@ public class TbZongheng2Service implements ITbZongheng2Service {
             criteria.andIdEqualTo(TbZongheng2.getId());
             tbZongheng2Mapper.deleteByExample(example);
         }
-        System.out.println("执行cancel");
     }
 
 

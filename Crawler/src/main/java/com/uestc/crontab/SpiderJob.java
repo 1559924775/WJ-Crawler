@@ -4,7 +4,6 @@ package com.uestc.crontab;
 import com.uestc.service.impl.RedisQueueRepositoryService;
 import com.uestc.start.RunnableStart;
 import com.uestc.util.RedisUtil;
-import org.junit.Test;
 import org.quartz.Job;
 import org.quartz.JobDataMap;
 import org.quartz.JobExecutionContext;
@@ -12,7 +11,6 @@ import org.quartz.JobExecutionException;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 

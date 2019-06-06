@@ -31,7 +31,7 @@ public class TbDouban1Service implements ITbDouban1Service {
             TbDouban1Example.Criteria criteria=example.createCriteria();
             criteria.andIdEqualTo(tbDouban1.getId());
             tbDouban1Mapper.updateByExampleSelective(tbDouban1,example);
-            System.out.println("执行comfirm");
+
         }
 
     }
@@ -43,7 +43,7 @@ public class TbDouban1Service implements ITbDouban1Service {
             criteria.andIdEqualTo(tbDouban1.getId());
             tbDouban1Mapper.deleteByExample(example);
         }
-        System.out.println("执行cancel");
+
     }
     public TbDouban1 getOne(TbDouban1 tbDouban1){
         TbDouban1Example example=new TbDouban1Example();

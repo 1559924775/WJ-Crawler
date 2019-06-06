@@ -107,7 +107,6 @@ public class HttpClientDownLoadService implements IDownLoadService {
 			e.printStackTrace();
 			//如果当前ip不可用，从动态代理ip库里面删除
 			redisUtil.deleteSet(LoadPropertyUtil.getZongheng("ipset"), ip_port);
-			System.out.println("删除 ："+ip_port+"------------------------------------------------");
 			new HttpClientDownLoadService().download(url);
 		}catch (ClientProtocolException e) {
 			// TODO Auto-generated catch block

@@ -12,13 +12,12 @@ import org.springframework.stereotype.Component;
  * 快速启动无需定时，仅仅用于测试
  * @author 王俊
  */
-@Component
+//@Component
 public class SpiderQuickStart implements ApplicationRunner, ApplicationContextAware {
 
     @Override
     public void run(ApplicationArguments applicationArguments) throws Exception {
         RunnableStart runnableStart=applicationContext.getBean(RunnableStart.class);
-        System.out.println("开始了————————————————————————————————————");
         runnableStart.start();
     }
 

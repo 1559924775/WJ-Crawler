@@ -23,6 +23,8 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import static org.apache.solr.client.solrj.impl.XMLResponseParser.log;
+
 /**
  * 数据存储实现类，存入数据库
  * @author 王俊
@@ -47,10 +49,10 @@ public class MysqlStoreService implements IStoreService {
 		idWorker=new IdWorker(workerId,datacenterId);
 	}
 	public void confirmStore(Page page1) {
-		System.out.println("confirmStore");
+		log.info("comfirmStore");
 	}
 	public void cancelStore(Page page1) {
-		System.out.println("cancelStore");
+		log.info("cancelStore");
 	}
 	@Compensable(propagation = Propagation.REQUIRES_NEW,confirmMethod = "confirmStore", cancelMethod = "cancelStore", asyncConfirm = true)
 	public void store( Page page1) {
@@ -59,7 +61,6 @@ public class MysqlStoreService implements IStoreService {
 			DoubanPage page=(DoubanPage)page1;
 			// TODO Auto-generated method stub
 			//存入数据库  需要对应的dao和xml
-			System.out.println("存入数据库douban");
 			String id=idWorker.nextId()+"";//由雪花算法得到
 			TbDouban1 tbDouban1=new TbDouban1();
 			tbDouban1.setArea(page.getArea());
@@ -95,7 +96,7 @@ public class MysqlStoreService implements IStoreService {
 		}else if(page1 instanceof ZonghengPage){
 			String id=idWorker.nextId()+"";//由雪花算法得到
 			ZonghengPage page=(ZonghengPage)page1;
-			System.out.println("存入数据库zongheng");
+
 			TbZongheng1 tbZongheng1=new TbZongheng1();
 			tbZongheng1.setId(id);
 			tbZongheng1.setName(page.getName());

@@ -748,3 +748,243 @@
 15:23:02,170 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/30237255
 15:23:11,312 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/30334073
 15:23:17,355 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/26266893
+21:33:02,234 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析列表页-url:https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0
+21:33:02,454 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/27060077
+21:33:02,454 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/27060077
+21:33:02,614 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/27060077
+21:33:02,724 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/27053945
+21:33:02,724 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/27053945
+21:33:02,884 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/27053945
+21:33:02,994 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/30236340
+21:33:02,994 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/30236340
+21:33:03,154 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/30236340
+21:33:03,264 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/26987999
+21:33:03,264 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/26987999
+21:33:03,424 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/26987999
+21:33:03,534 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/30237255
+21:33:03,534 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/30237255
+21:33:03,694 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/30237255
+21:33:03,804 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/30334073
+21:33:03,804 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/30334073
+21:33:03,964 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/30334073
+21:33:04,074 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/26266893
+21:33:04,074 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/26266893
+21:33:04,234 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/26266893
+21:33:04,344 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/27202819
+21:33:04,354 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/27202819
+21:33:04,514 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/27202819
+21:33:04,624 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/30164448
+21:33:04,624 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/30164448
+21:33:04,784 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/30164448
+21:33:04,894 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/26213252
+21:33:04,894 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/26213252
+21:33:05,054 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/26213252
+21:33:05,164 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/27663742
+21:33:05,164 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/27663742
+21:33:05,324 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/27663742
+21:33:05,434 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/30163509
+21:33:05,434 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/30163509
+21:33:05,594 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/30163509
+21:33:05,704 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/26728669
+21:33:05,704 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/26728669
+21:33:05,864 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/26728669
+21:33:05,964 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/3168101
+21:33:05,974 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/3168101
+21:33:06,124 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/3168101
+21:33:06,234 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/25986662
+21:33:06,234 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/25986662
+21:33:06,394 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/25986662
+21:33:06,504 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/19899707
+21:33:06,504 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/19899707
+21:33:06,664 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/19899707
+21:33:06,774 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/3878007
+21:33:06,774 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/3878007
+21:33:06,934 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/3878007
+21:33:07,034 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/30283179
+21:33:07,034 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/30283179
+21:33:07,204 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/30283179
+21:33:07,304 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/27624661
+21:33:07,304 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/27624661
+21:33:07,464 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/27624661
+21:33:07,574 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/26752088
+21:33:07,574 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/26752088
+21:33:07,734 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/26752088
+21:33:07,844 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=20
+21:33:07,844 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=20
+21:33:08,004 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=20
+21:33:15,179 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/27060077
+21:33:18,960 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/27053945
+21:33:23,037 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/30236340
+21:33:24,192 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/26987999
+21:33:30,416 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/30237255
+21:33:32,469 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/30334073
+21:33:35,968 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/26266893
+21:33:39,661 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/27202819
+21:33:45,309 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/30164448
+21:33:52,499 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/26213252
+21:33:58,922 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/27663742
+21:34:04,734 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/30163509
+21:34:07,106 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/26728669
+21:34:13,417 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/3168101
+21:34:21,238 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/25986662
+21:34:24,922 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/19899707
+21:34:33,076 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/3878007
+21:34:36,385 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/30283179
+21:34:38,260 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/27624661
+21:34:45,424 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/26752088
+21:34:54,911 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析列表页-url:https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=20
+21:34:55,072 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/26374197
+21:34:55,076 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/26374197
+21:34:55,238 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/26374197
+21:34:55,345 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/26985127
+21:34:55,345 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/26985127
+21:34:55,506 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/26985127
+21:34:55,613 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/26871669
+21:34:55,615 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/26871669
+21:34:55,776 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/26871669
+21:34:55,884 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/5300054
+21:34:55,887 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/5300054
+21:34:56,048 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/5300054
+21:34:56,155 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/27110296
+21:34:56,157 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/27110296
+21:34:56,317 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/27110296
+21:34:56,423 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/26425063
+21:34:56,424 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/26425063
+21:34:56,582 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/26425063
+21:34:56,689 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/27191431
+21:34:56,690 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/27191431
+21:34:56,849 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/27191431
+21:34:56,976 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/1950330
+21:34:56,977 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/1950330
+21:34:57,137 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/1950330
+21:34:57,243 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/26636712
+21:34:57,259 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/26636712
+21:34:57,420 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/26636712
+21:34:57,529 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/30143333
+21:34:57,531 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/30143333
+21:34:57,690 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/30143333
+21:34:57,797 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/27605698
+21:34:57,799 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/27605698
+21:34:57,955 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/27605698
+21:34:58,065 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/27160618
+21:34:58,065 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/27160618
+21:34:58,225 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/27160618
+21:34:58,335 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/30331149
+21:34:58,335 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/30331149
+21:34:58,499 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/30331149
+21:34:58,607 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/26147417
+21:34:58,609 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/26147417
+21:34:58,768 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/26147417
+21:34:58,876 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/26394152
+21:34:58,877 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/26394152
+21:34:59,037 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/26394152
+21:34:59,144 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/20438964
+21:34:59,145 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/20438964
+21:34:59,303 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/20438964
+21:34:59,410 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/26701196
+21:34:59,411 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/26701196
+21:34:59,571 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/26701196
+21:34:59,678 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/1652592
+21:34:59,680 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/1652592
+21:34:59,839 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/1652592
+21:34:59,947 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/27109679
+21:34:59,949 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/27109679
+21:35:00,108 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/27109679
+21:35:00,216 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/4864908
+21:35:00,217 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/4864908
+21:35:00,376 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/4864908
+21:35:00,483 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=40
+21:35:00,510 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=40
+21:35:00,670 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=40
+21:35:02,177 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/26374197
+21:35:04,808 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/26985127
+21:35:07,102 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/26871669
+21:35:12,008 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/5300054
+21:35:19,632 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/27110296
+21:35:29,001 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/26425063
+21:35:33,430 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/27191431
+21:35:35,882 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/1950330
+21:35:40,857 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/26636712
+21:35:46,469 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/30143333
+21:35:51,331 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/27605698
+21:35:57,123 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/27160618
+21:36:02,452 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/30331149
+21:36:10,143 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/26147417
+21:36:11,063 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/26394152
+21:36:14,344 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/20438964
+21:36:23,296 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/26701196
+21:36:31,966 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/1652592
+21:36:37,513 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/27109679
+21:36:41,592 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/4864908
+21:36:49,338 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析列表页-url:https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=40
+21:36:49,499 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/4840388
+21:36:49,500 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/4840388
+21:36:49,659 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/4840388
+21:36:49,766 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/26336252
+21:36:49,767 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/26336252
+21:36:49,925 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/26336252
+21:36:50,032 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/3927736
+21:36:50,033 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/3927736
+21:36:50,194 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/3927736
+21:36:50,302 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/27040157
+21:36:50,304 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/27040157
+21:36:50,463 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/27040157
+21:36:50,569 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/26366496
+21:36:50,569 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/26366496
+21:36:50,728 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/26366496
+21:36:50,835 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/2244426
+21:36:50,836 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/2244426
+21:36:50,995 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/2244426
+21:36:51,103 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/30272143
+21:36:51,105 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/30272143
+21:36:51,265 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/30272143
+21:36:51,373 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/30158971
+21:36:51,374 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/30158971
+21:36:51,538 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/30158971
+21:36:51,646 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/30377703
+21:36:51,648 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/30377703
+21:36:51,807 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/30377703
+21:36:51,913 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/26925317
+21:36:51,914 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/26925317
+21:36:52,074 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/26925317
+21:36:52,180 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/27168310
+21:36:52,181 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/27168310
+21:36:52,340 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/27168310
+21:36:52,448 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/26816076
+21:36:52,449 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/26816076
+21:36:52,608 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/26816076
+21:36:52,715 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/27135473
+21:36:52,716 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/27135473
+21:36:52,875 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/27135473
+21:36:52,981 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/30135113
+21:36:52,982 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/30135113
+21:36:53,141 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/30135113
+21:36:53,248 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/27166442
+21:36:53,249 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/27166442
+21:36:53,408 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/27166442
+21:36:53,514 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/27597250
+21:36:53,515 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/27597250
+21:36:53,675 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/27597250
+21:36:53,781 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/27109171
+21:36:53,782 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/27109171
+21:36:53,941 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/27109171
+21:36:54,048 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/27615233
+21:36:54,049 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/27615233
+21:36:54,208 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/27615233
+21:36:54,313 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/27140071
+21:36:54,314 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/27140071
+21:36:54,475 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/27140071
+21:36:54,582 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/subject/30209818
+21:36:54,582 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/subject/30209818
+21:36:54,742 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/subject/30209818
+21:36:54,850 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入本地localDoneSet: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=60
+21:36:54,851 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的doneSet: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=60
+21:36:55,010 DoubanLogServiceImpl info 节点spider_douban192.168.1.1加入reids的布隆过滤器: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=60
+21:36:56,122 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/4840388
+21:37:00,096 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/26336252
+21:37:03,429 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/3927736
+21:37:05,192 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/27040157
+21:37:12,981 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/26366496
+21:37:15,151 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/2244426
+21:37:22,749 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/30272143
+21:37:25,929 DoubanLogServiceImpl info 节点spider_douban192.168.1.1正在解析详细页-url:https://movie.douban.com/subject/30158971

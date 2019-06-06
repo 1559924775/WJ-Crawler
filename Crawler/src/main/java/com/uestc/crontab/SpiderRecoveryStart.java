@@ -17,7 +17,6 @@ public class SpiderRecoveryStart implements ApplicationRunner, ApplicationContex
     @Override
     public void run(ApplicationArguments applicationArguments) throws Exception {
         RunnableStart runnableStart=applicationContext.getBean(RunnableStart.class);
-        System.out.println("开始了————————————————————————————————————");
         runnableStart.setRecovery(true);
         runnableStart.start();
     }

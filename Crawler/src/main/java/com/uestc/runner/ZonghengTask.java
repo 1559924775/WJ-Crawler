@@ -79,7 +79,7 @@ public class ZonghengTask implements Runnable{
 //                conditionController.getCda().signal();
 //                conditionController.getCdb().await(10000,TimeUnit.MILLISECONDS);
 
-                System.out.println(Thread.currentThread().getName());
+
                 url=redisQueueRepositoryService.poll(keyName); //刚开始只有主队列中有，需要窃取
                 if(url==null){
                     //自己的任务完成了，从别人那里去窃取任务
@@ -99,7 +99,7 @@ public class ZonghengTask implements Runnable{
                 }
                 //如果是详情页直接消费，如果是列表页解析列表页
                 if(url.startsWith(LoadPropertyUtil.getZongheng("listUrlStartWith"))){
-                    System.out.println("列表页:"+url);
+
                     //是列表页，将所有book详情页url加入到队列中，并将下一个列表页加入到队列中
                     String content=httpClientDownLoadService.download(url);
                     zonghengLogService.info("节点"+keyName+"正在解析列表页-url:"+url);
@@ -129,7 +129,6 @@ public class ZonghengTask implements Runnable{
                     page.setDate(new Date());
                     page.setContent(content);
                     zonghengProcessService.process(page);
-                    System.out.println("开始数据库存车服务————————————————-");
                     page.setContent("null");
                     mysqlStoreService.store(page);
                     zonghengLogService.addSuccessNum(1);

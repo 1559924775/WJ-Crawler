@@ -81,7 +81,6 @@ public class DoubanTask implements Runnable{
 //                conditionController.getCdb().signal();
 //                conditionController.getCda().await(10000,TimeUnit.MILLISECONDS);
 
-                System.out.println(Thread.currentThread().getName());
                 //从自己的队列中取任务，用poll（）方法从尾部取 （push()使用头部放入的）
                 url=redisQueueRepositoryService.poll(keyName); //刚开始只有主队列中有，需要窃取
                 if(url==null){
@@ -102,7 +101,6 @@ public class DoubanTask implements Runnable{
                 }
                 //如果是详情页直接消费，如果是列表页解析列表页
                 if(url.startsWith(LoadPropertyUtil.getDouban("listUrlStartWith"))){
-                    System.out.println("列表页:"+url);
                     //是列表页，将所有电影详情页url加入到队列中，并将下一个列表页加入到队列中
                     String content=httpClientDownLoadService.download(url);
                     doubanLogService.info("节点"+keyName+"正在解析列表页-url:"+url);
@@ -132,7 +130,6 @@ public class DoubanTask implements Runnable{
                     page.setContent(content);
                     page.setDate(new Date());
                     doubanProcessService.process(page);
-                    System.out.println("开始数据库存车服务————————————————-");
                     page.setContent("null");
                     mysqlStoreService.store(page);
                     doubanLogService.addSuccessNum(1);
