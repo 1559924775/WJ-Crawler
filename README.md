@@ -1,5 +1,5 @@
 # WJ-Crawler
-开发工具：IDEA
+开发工具：IDEA<br/>
 依赖工具:spring-boot、mybatis、maven、redis、dubbo、zookeeper、mysql、tcc-trasaction
 
 项目介绍:</br>
